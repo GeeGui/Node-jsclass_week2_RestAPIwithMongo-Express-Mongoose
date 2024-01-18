@@ -1,0 +1,1 @@
+db.users.update({ username: "Alli"}, { $set: {admin: true}});
