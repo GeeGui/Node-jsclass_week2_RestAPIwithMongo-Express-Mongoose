@@ -1,1 +1,1 @@
-db.users.update({ username: "Alli"}, { $set: {admin: true}});
+db.users.update({ username: "Admin"}, { $set: {admin: true}});
